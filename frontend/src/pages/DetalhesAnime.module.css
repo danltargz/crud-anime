@@ -1,0 +1,117 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.btnVoltar {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  padding: 0;
+  font-weight: 700;
+}
+
+.btnVoltar:hover {
+  color: var(--text);
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 36px;
+}
+
+.titulo {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2.4rem;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+.tags {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 28px;
+}
+
+.tag {
+  background: var(--accent);
+  color: #fff;
+  padding: 3px 12px;
+  border-radius: 20px;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  border-top: 1px solid var(--border);
+  padding-top: 24px;
+  margin-bottom: 28px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.95rem;
+}
+
+.label {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.botoes {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  border-top: 1px solid var(--border);
+  padding-top: 24px;
+}
+
+.btnEditar,
+.btnDeletar {
+  padding: 10px 24px;
+  border-radius: var(--radius);
+  font-weight: 700;
+  font-size: 0.9rem;
+  border: none;
+}
+
+.btnEditar {
+  background: #2a2a2a;
+  color: var(--text);
+}
+
+.btnEditar:hover {
+  background: #333;
+}
+
+.btnDeletar {
+  background: var(--accent);
+  color: #fff;
+}
+
+.btnDeletar:hover {
+  background: var(--accent-dim);
+}
+
+.erro,
+.msg {
+  text-align: center;
+  padding: 40px;
+  color: var(--text-muted);
+}
+
+.erro {
+  color: #ff6b6b;
+}
