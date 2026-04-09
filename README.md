@@ -141,4 +141,4 @@ npm run dev
 
 ## Desenvolvido por
 
-Danillo Camargo
+Danillo Gonçalves Camargo da Silva
