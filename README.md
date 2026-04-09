@@ -137,6 +137,8 @@ npm run dev
 - Exclusão de anime
 - Visualização detalhada de um anime
 
+## Apresentação
+[Vídeo de apresentação](https://youtu.be/KCaqBIrYpFQ)
 ---
 
 ## Desenvolvido por
