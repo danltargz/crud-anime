@@ -8,9 +8,16 @@ Sistema web completo para gerenciamento de animes, desenvolvido com React, Node.
 
 ## Screenshots
 
+### Listagem de Animes
 ![Tela de listagem](assets/lista.png)
+
+### Cadastro de Anime
 ![Tela de cadastro](assets/cadastro.png)
+
+### Edição de Anime
 ![Tela de edição](assets/edicao.png)
+
+### Detalhes do Anime
 ![Tela de detalhes](assets/detalhes.png)
 
 ---
@@ -129,18 +136,6 @@ npm run dev
 - Edição de anime existente
 - Exclusão de anime
 - Visualização detalhada de um anime
-
----
-
-## Endpoints da API
-
-| Método | Rota | Descrição |
-|--------|------|-----------|
-| GET | `/anime` | Lista todos os animes (suporta paginação via `?page=` e `?limit=`) |
-| GET | `/anime/:id` | Busca um anime por ID |
-| POST | `/anime` | Cadastra um novo anime |
-| PUT | `/anime/:id` | Atualiza um anime existente |
-| DELETE | `/anime/:id` | Remove um anime |
 
 ---
 
