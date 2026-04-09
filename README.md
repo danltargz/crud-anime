@@ -136,9 +136,12 @@ npm run dev
 - Edição de anime existente
 - Exclusão de anime
 - Visualização detalhada de um anime
+  
+---
 
 ## Apresentação
 [Vídeo de apresentação](https://youtu.be/KCaqBIrYpFQ)
+
 ---
 
 ## Desenvolvido por
